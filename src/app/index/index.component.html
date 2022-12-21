@@ -1,0 +1,341 @@
+<app-navbar></app-navbar>
+<div class="container-fluid">
+  <app-carousel></app-carousel>
+  <!-- About us section-->
+  <div class="container reveal about mt-5 mb-3">
+    <div class="row">
+      <div class="col-md-6 col-lg-6 col-sm-12 my-5">
+        <h3 class="text-center pb-2">{{ "About_title" | translate }}</h3>
+        <p class="text-center about-p">{{ "About_desc" | translate }}</p>
+      </div>
+      <div class="col-md-6 col-lg-6 col-sm-12">
+        <div class="text-center">
+          <img src="assets/img/Logo.jpg" class="first" alt="smart capital" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End-->
+
+  <!-- Our services section-->
+  <div id="Services" class="container-fluid reveal services">
+    <div class="container">
+      <section class="row">
+        <div class="row">
+          <div class="text-center">
+            <h1 class="text-uppercase mt-5 text-white text-center">
+              {{ "Our services" | translate }}
+            </h1>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="assets/img/Manager-512.webp"
+                  class="icon-services"
+                  alt="smart capital project management"
+                />
+              </div>
+              <p class="name">{{ "Project Management" | translate }}</p>
+              <div id="hover-content" class="card-body">
+                <img
+                  src="assets/img/projects.jpg"
+                  alt="smart capital projects management "
+                  class="img-fluid mb-3"
+                />
+                <p [innerHTML]="'Projects_desc' | translate"></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="assets/img/1858706-200.png"
+                  class=""
+                  alt="smart capital project management"
+                />
+              </div>
+              <p class="name">{{ "Business Management" | translate }}</p>
+              <div id="hover-content" class="card-body">
+                <img
+                  src="assets/img/business.jpg"
+                  alt="smart capital business management"
+                  class="img-fluid mb-3"
+                />
+                <p>{{ "Business_desc" | translate }}</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="assets/img/2764570-200.png"
+                  class=""
+                  alt="smart capital project management"
+                />
+              </div>
+              <p class="name">{{ "Marketing Management" | translate }}</p>
+              <div id="hover-content" class="card-body">
+                <img
+                  src="assets/img/marketing.jpg"
+                  alt="smart capital marketing management"
+                  class="img-fluid mb-3"
+                />
+                <p>{{ "Marketing_desc" | translate }}</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="assets/img/1933965-200.png"
+                  class=""
+                  alt="smart capital project management"
+                />
+              </div>
+              <p class="name">{{ "Sales Management" | translate }}</p>
+              <div id="hover-content" class="card-body">
+                <img
+                  src="assets/img/sales.jpg"
+                  alt="smart capital sales management"
+                  class="img-fluid mb-3"
+                />
+                <p>{{ "Sales_desc" | translate }}</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="assets/img/4450786-200.png"
+                  class=""
+                  alt="smart capital project management"
+                />
+              </div>
+              <p class="name">{{ "HR Management" | translate }}</p>
+              <div id="hover-content" class="card-body">
+                <img
+                  src="assets/img/HR.jpg"
+                  alt="smart capital HR management"
+                  class="img-fluid mb-3"
+                />
+                <p>{{ "HR_desc" | translate }}</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="assets/img/2156442-200.png"
+                  class=""
+                  alt="smart capital project management"
+                />
+              </div>
+              <p class="name">{{ "Accounting Management" | translate }}</p>
+              <div id="hover-content" class="card-body">
+                <img
+                  src="assets/img/accounting.jpg"
+                  alt="smart capital accounting management"
+                  class="img-fluid mb-3"
+                />
+                <p>{{ "Account_desc" | translate }}</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="assets/img/1085396-200.png"
+                  class=""
+                  alt="smart capital project management"
+                />
+              </div>
+              <p class="name">{{ "Tourist Services" | translate }}</p>
+              <div id="hover-content" class="card-body">
+                <img
+                  src="assets/img/tourism.jpg"
+                  alt="smart capital tourism services"
+                  class="img-fluid mb-3"
+                />
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="card">
+              <div class="card-image">
+                <img
+                  src="assets/img/12345.png"
+                  class=""
+                  alt="smart capital project management"
+                />
+              </div>
+              <p class="name">{{ "Medical Tourism Services" | translate }}</p>
+              <div id="hover-content" class="card-body">
+                <img
+                  src="assets/img/medicales.jpg"
+                  alt="smart capital medicales tourism"
+                  class="img-fluid mb-3"
+                />
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <img src="assets/img/hero-shape-2-1.png" id="Contact" alt="" width="100%" />
+  </div>
+
+  <!-- Contact us section-->
+  <div class="container reveal">
+    <div class="row my-5">
+      <h1 class="text-center">{{ "Get_in_touch" | translate }}</h1>
+    </div>
+    <div class="row mb-3">
+      <div class="col-lg-6 col-md-12 col-sm-12 px-3">
+        <form
+          class="example-form"
+          [formGroup]="contactForm"
+          (ngSubmit)="onSubmit()"
+        >
+          <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>{{ "name_label" | translate }}</mat-label>
+            <input matInput type="text" formControlName="name" required />
+          </mat-form-field>
+          <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>{{ "email_label" | translate }}</mat-label>
+            <input
+              matInput
+              type="email"
+              placeholder="pat@example.com"
+              formControlName="email"
+              required
+            />
+            <mat-error *ngIf="email.invalid">{{ getErrorMessage() }}</mat-error>
+          </mat-form-field>
+          <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>{{ "phone_label" | translate }}</mat-label>
+            <input matInput type="phone" formControlName="phone_no" required />
+            <mat-icon matSuffix>phone</mat-icon>
+          </mat-form-field>
+          <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>{{ "subject_label" | translate }}</mat-label>
+            <input matInput type="text" formControlName="subject" required />
+          </mat-form-field>
+          <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>{{ "message_label" | translate }}</mat-label>
+            <textarea
+              matInput
+              type="text"
+              formControlName="message"
+              required
+            ></textarea>
+          </mat-form-field>
+          <div class="text-center">
+            <button type="submit" class="btn btn-outline-warning mb-2">
+              {{ "button_send" | translate }}
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12 text-center px-3">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3192.4937345680178!2d10.256197884060896!3d36.854599117764735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12e2b555669e03d5%3A0xcf0cfd87bee0e8f8!2sAv.%20Khaled%20Ibn%20El%20Walid!5e0!3m2!1sfr!2stn!4v1667269377509!5m2!1sfr!2stn"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+  </div>
+  <!-- End-->
+
+  <!-- Information section-->
+  <div class="container-fluid contact">
+    <div class="container">
+      <div class="row text-center pb-3">
+        <div class="col-lg-3 col-md-3 col-sm-12 info">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="42"
+            height="42"
+            fill="currentColor"
+            class="bi bi-geo-alt-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
+            />
+          </svg>
+          <h6 [innerHTML]="'address' | translate"></h6>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-12 info">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="42"
+            height="42"
+            fill="currentColor"
+            class="bi bi-telephone-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+            />
+          </svg>
+          <h6><a href="tel:+216 51 73 33 30">+216 51 73 33 30</a></h6>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-12 info">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="42"
+            height="42"
+            fill="currentColor"
+            class="bi bi-clock-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"
+            />
+          </svg>
+          <h6 [innerHTML]="'time' | translate"></h6>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-12 info">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="42"
+            height="42"
+            fill="currentColor"
+            class="bi bi-envelope-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"
+            />
+          </svg>
+          <h6>
+            <a href="mailto:contact@smarttcapital.com"
+              >contact@smarttcapital.com</a
+            >
+            <br />
+            <a href="mailto:mahabad@smarttcapital.com"
+              >mahabad@smarttcapital.com</a
+            >
+          </h6>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End-->
+</div>
+<app-footer></app-footer>

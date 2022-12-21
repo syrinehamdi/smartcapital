@@ -1,0 +1,30 @@
+.scroll-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  outline: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  text-align: center;
+  color: #fff;
+  background: #212083;
+  cursor:pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  transition-duration: 0.5s;
+}
+
+.scroll-to-top:hover {
+  transform: translateY(-10px);
+}
+.scroll-to-top.active{
+  bottom: 32px;
+  pointer-events: auto;
+  opacity: 1;
+  transform: translateY(-55px);
+}
+
+.scroll-to-top mat-icon {
+  margin-top: 23%;
+}

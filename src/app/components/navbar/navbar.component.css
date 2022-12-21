@@ -1,0 +1,82 @@
+.navbar {
+  margin: 0 50px;
+  z-index: 10;
+  transition: all 0.1s ease-in-out;
+}
+.fixed {
+  position: fixed;
+  width: 100%;
+  transition: 0.2s linear;
+  margin: 0;
+  top: 0px;
+}
+
+.nofixed {
+  position: static;
+  transition: 0.2s linear;
+  top: -50px;
+}
+.logo {
+  width: 250px;
+  height: 80px;
+}
+mat-button-toggle {
+  background: none;
+  color: rgba(255, 255, 255, 0.55);
+  border: none;
+  font-size: 12px;
+}
+mat-button-toggle-group {
+  border: none;
+}
+mat-button-toggle:hover {
+  color: white;
+}
+mat-button-toggle.active {
+  color: white;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+}
+li {
+  margin: 0 10px;
+}
+a {
+  text-decoration: none;
+}
+.link-info,
+span {
+  font-size: 12px;
+  color: black;
+}
+.info {
+  color: #0dcaf0;
+}
+svg,
+a svg,
+button {
+  transition: transform 1s;
+}
+svg:hover {
+  transform: scale(1.2);
+}
+a:hover svg,
+button:hover {
+  transform: scale(1.5);
+}
+@media (max-width: 480px) {
+  .navbar {
+    margin: 0;
+  }
+}
+@media (max-width: 426px) {
+  .logo {
+    width: 150;
+    height: 30;
+  }
+  .link-info,
+  span {
+    font-size: 8px;
+  }
+}
